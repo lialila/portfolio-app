@@ -1,0 +1,36 @@
+.body {
+  nav {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    transform: translate(0, -50%);
+    top: 8%;
+  }
+  ul {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    writing-mode: vertical-rl;
+    font-family: 'SpaceMono', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    margin: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+  a {
+    cursor: pointer;
+  }
+  .navlink:hover {
+    text-decoration: line-through #ff0000;
+  }
+  .navlink:checked {
+    text-decoration: line-through #ff0000;
+  }
+}

@@ -1,0 +1,69 @@
+// @import url('fonts/ABCGintoNord-Bold.otf');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smooting: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'GintoNord', 'SpaceMono', 'Inter', sans-serif;
+  font-size: 21px;
+  color: black;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  overflow: visible;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a,
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+@font-face {
+  font-family: 'GintoNord';
+  src: url('../public/fonts/ABCGintoNord-Bold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SpaceMono';
+  src: url('../public/fonts/SpaceMono-Bold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../public/fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Supply';
+  src: url('../public/fonts/Supply-Regular.otf') format('otf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinetype';
+  src: url('../public/fonts/Cinetype-Regular.otf') format('otf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
